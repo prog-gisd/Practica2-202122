@@ -323,7 +323,7 @@ FAILED (failures=2)
 ## Entrega de la práctica
 
 
-Para entregar la práctica, se deberá subir a Moodle en <a href="https://moodle.upm.es/titulaciones/oficiales/mod/assign/view.php?id=208687">este enlace</a> el fichero ```listadelacompra.py```, conteniendo todas las funciones requeridas en la práctica. La práctica se estar entregada en Moodle antes de las 23:59 del **CAMBIAR FECHA**.
+Para entregar la práctica, se deberá subir a Moodle en <a href="https://moodle.upm.es/titulaciones/oficiales/mod/assign/view.php?id=208687">este enlace</a> el fichero ```listadelacompra.py```, conteniendo todas las funciones requeridas en la práctica. La práctica se estar entregada en Moodle antes de las 23:59 del **12 de Noviembre de 2021**.
 
 </br>
 
