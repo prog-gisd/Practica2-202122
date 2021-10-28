@@ -64,6 +64,20 @@ class TestProductos(unittest.TestCase):
             assert (precio == 1.5) == (nombre == 'Arroz integral')
 
 
+    def test_ordenar(self):
+        insertar('Arroz integral', 0.72, 'Alimentación', ('risotto', 'arroz a la cubana'))
+        insertar('Huevos', 1.20, 'Alimentación', ('arroz a la cubana', 'tortilla'), 1)
+        insertar('Desmaquillante', 4.5, 'Cosméticos', ('fiesta', 'teatro'), 5)
+        ordenar()
+        assert productos[0][0] == 'Desmaquillante'
+        assert productos[1][0] == 'Arroz integral'
+        assert productos[2][0] == 'Huevos'
+        cambiar_estado(2)
+        ordenar()
+        assert productos[1][0] == 'Desmaquillante'
+        assert productos[2][0] == 'Arroz integral'
+        assert productos[0][0] == 'Huevos'
+
     def test_mostrar(self):
         insertar('Arroz integral', 0.72, 'Alimentación', ('risotto', 'arroz a la cubana'))
         insertar('Huevos', 1.20, 'Alimentación', ('arroz a la cubana', 'tortilla'), 1)
